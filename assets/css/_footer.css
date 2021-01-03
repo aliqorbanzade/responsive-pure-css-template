@@ -1,0 +1,104 @@
+.copy {
+    text-align: center;
+    border-top: 2px dashed orange;
+    padding: 10px;
+    color: #888787;
+    font-size: 14px;
+}
+.footer-section-wrapper {
+    background-color: #041121;
+    min-height: 300px;
+    color: white;
+}
+
+.desc {
+    color: white;
+    padding: 10px;
+}
+.desc a {
+    color: white;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.desc a i {
+    color: #b4d212;
+    transform: rotate(-18deg);
+    font-size: 38px;
+    padding-left: 10px;
+    vertical-align: -8px;
+}
+.desc p {
+    margin-top: 14px;
+    font-size: 16px;
+    color: #9c9898;
+}
+.service ,.contact-us {
+    color: #888787;
+    padding: 18px 14px;
+}
+.service h6,.contact-us h6 {
+    font-size: 16px;
+    border-bottom: 1px solid #3512fa;
+    padding-bottom: 11px;
+}
+.service ul ,.contact-us ul {
+    padding-top: 6px;
+    font-size: 16px;
+}
+.service ul li ,.contact-us ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.service ul li:hover
+,.contact-us ul li:hover{
+    color: orange;
+    cursor: pointer;
+    padding: 0 15px;
+}
+.service ul li::before
+,.contact-us ul li::before {
+    content: "\276f";
+    padding: 0 10px;
+    vertical-align: -2px;
+}
+
+.contact-us a,.contact-us a i{
+    color: #888787;
+    padding: 0 3px;
+    text-align: center;
+    transition: 0.3s;
+}
+.contact-us a:hover i{
+    color: orange;
+}
+
+.footer-section-wrapper form input[type=text]{
+    height: 38px;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-section-wrapper form input[type=submit]{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: none;
+    background-color:orange;
+    color: #fff;
+    height: 38px;
+    cursor: pointer;
+    outline: 0;
+}
+
+
+
+/* **** */
+.address ul{
+    padding: 10px;
+    
+}
+.address ul li span{
+    padding: 0 10px;
+}

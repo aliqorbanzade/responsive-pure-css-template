@@ -1,0 +1,18 @@
+@import './assets/css/_contact.css';
+@import './assets/css/_navbar.css';
+@import './assets/css/_header.css';
+@import './assets/css/_courses.css';
+@import './assets/css/_aboutus.css';
+@import './assets/css/_teacher.css';
+@import './assets/css/_stat.css';
+@import './assets/css/_topics.css';
+@import './assets/css/_faq.css';
+@import './assets/css/_footer.css';
+
+
+@font-face {
+    font-family: Vazir-Medium;
+    src: url('./assets/fonts/Vazir-Medium.woff');
+    font-weight: 700;
+    font-style: normal;
+}

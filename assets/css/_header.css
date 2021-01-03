@@ -1,0 +1,60 @@
+.img-header{
+    min-height: 89.5vh;
+} 
+figure{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 200;
+}
+.header-title{
+    color: white;
+    margin: 290px;
+    max-width: 500px;
+}
+.header-title a{
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+    float: left;
+    margin-left: 20px;
+
+}
+@media screen and (max-width:1200px){
+    .header-title{
+        width: 100%;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0.5);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: black;
+        padding: 15px;
+        transition: all 0.3s;
+    }
+
+    .overlay , .img-header{
+        min-height: 100%;
+    }
+}
+
+@media screen and (max-width:678px){
+    h1{
+        font-size: 18px;
+
+    }
+    h3{
+        font-size: 16px;
+    }
+    .header-title a{
+        font-size: 14px;
+    }
+}

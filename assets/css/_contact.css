@@ -1,0 +1,39 @@
+/* *********************** Top Bar */
+.container-fluid-custom{
+    background-color: #041121;
+    color: white;
+    height: 40px;
+}
+
+.container-fluid-custom .contact{
+    font-size: 15px;
+}
+.container-fluid-custom .contact i{
+    color: orange;
+    vertical-align: -10px;
+    margin-right: 15px;
+}
+.container-fluid-custom .contact span{
+    color: white;
+    margin: 5px;
+    
+}
+
+.container-fluid-custom .social-media{
+    direction: ltr;
+
+}
+.container-fluid-custom .social-media i{
+    vertical-align: -10px;
+    margin-right: -5px;
+    text-align: center;
+    padding: 10px;
+    width: 70px;
+    height: 38px;
+    transition:background-color 0.3s ease ;
+}
+.container-fluid-custom .social-media a{
+    color: white;
+}
+.container-fluid-custom .social-media a:hover i{
+    background-color: orange;}
